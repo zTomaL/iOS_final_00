@@ -27,5 +27,13 @@ class ViewController: UIViewController ,UIImagePickerControllerDelegate, UINavig
         present(controller, animated: true, completion: nil)
         
     }
+    
+    @IBOutlet weak var headButton: UIButton!
+    
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+        headButton.setBackgroundImage(info[UIImagePickerControllerOriginalImage] as? UIImage, for: .normal)
+        dismiss(animated: true, completion: nil)
+        
+    }
 }
 

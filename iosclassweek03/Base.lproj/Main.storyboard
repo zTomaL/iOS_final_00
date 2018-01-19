@@ -53,6 +53,9 @@
                         <color key="backgroundColor" red="0.76652481604371137" green="0.94660094895287961" blue="0.80466911262964935" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="YeV-ik-Hde"/>
+                    <connections>
+                        <outlet property="headButton" destination="PF6-qG-2Ur" id="7o0-2P-EDs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="nWj-ZQ-yR9"/>
